@@ -24,15 +24,27 @@ pre{
   width: 760px;
   padding: 6px 18px;
 }
-code{
-  width: 90%;
-  color: white;
-  scroll-behavior: smooth;
-  overflow-x: scroll;
-  
+textarea{
+    font-size: 20px;
+    font-family: monospace;
+    background-color: #222;
+    color: #eee;
+    resize: none;
 }
-h1, h2, h3, h4, h5, h6 {
-	 font-family: 'Poppins', sans-serif;
+
+
+pre{
+    width: 80ch;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 20px;
+}
+.output{
+    font-size: 16px;
+    width: 98vw;
+    overflow-x: scroll;
+    padding: 20px;
+    border: 1px solid #666;
 }
  code {
 	 padding: 1em 2em 2em 2em !important;
