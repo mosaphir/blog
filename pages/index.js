@@ -14,11 +14,11 @@ export default function Home({ posts }) {
   return (
     <div>
       <NextSeo
-        title="Welcome to my blog home page"
+        title="Welcome to my blog"
         description="Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support"
         openGraph={{
-          url: 'http://officialrajdeepsingh.dev',
-          title: 'Welcome to my blog home page',
+          url: 'https://mosaphir.github.io',
+          title: 'Welcome to my blog',
           description: 'Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support',
           images: [
             {
@@ -29,7 +29,7 @@ export default function Home({ posts }) {
               type: 'image/jpeg',
             },
           ],
-          site_name: 'Rajdeep Singh',
+          site_name: 'Mosaphir',
         }}      
       />
         <Banner /> 
