@@ -28,14 +28,14 @@ export default function PostPage({ content, frontmatter }) {
         title={frontmatter.title} 
         description={frontmatter.summary}
         openGraph={{
-          url: 'https:officialrajdeepsingh.dev',
+          url: 'https://mosaphir.github.io',
           title: frontmatter.title,
           description: frontmatter.summary ,
           type: 'article',
           article: {
             publishedTime: frontmatter.date,
             authors: [
-              'https://officialrajdeepsingh.dev/pages/about',
+              'https://mosaphir.github.io/pages/about',
             ],
             tags: frontmatter.tags,
           },
