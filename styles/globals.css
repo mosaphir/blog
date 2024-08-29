@@ -25,9 +25,33 @@ pre{
   padding: 6px 18px;
 }
 code{
-  width: 100%;
+  width: 90%;
   color: white;
   scroll-behavior: smooth;
   overflow-x: scroll;
   
 }
+h1, h2, h3, h4, h5, h6 {
+	 font-family: 'Poppins', sans-serif;
+}
+ code {
+	 padding: 1em 2em 2em 2em !important;
+	 margin: 2em auto;
+	 font-family: 'Fira Mono', monospace;
+	 tab-size: 2;
+}
+ var::before, var::after {
+	 content: '`';
+}
+ button {
+	 padding: 0.5em 1em;
+	 font-family: 'Lato', sans-serif;
+	 font-size: 1.2em;
+	 cursor: pointer;
+}
+ .output {
+	 padding: 2em;
+	 font-family: 'Fira Mono', monospace;
+	 background-color: #e2e9ed;
+}
+ 
