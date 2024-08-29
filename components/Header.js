@@ -6,7 +6,7 @@ export default function Header() {
             <div className="container">
                 <Link href="/">
                     <a className='navbar-brand'>
-                        Markdown + Nextjs
+                        Mosaphir
                     </a>
                 </Link>
 
@@ -18,7 +18,7 @@ export default function Header() {
                                 <li className="nav-item"> Home </li>
                             </a>
                         </Link>
-                        <Link href="/">
+                        <Link href="/about">
                             <a className='nav-link'>
                                 <li className="nav-item">About </li>
                             </a>
